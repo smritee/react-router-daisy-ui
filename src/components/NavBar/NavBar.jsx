@@ -54,6 +54,9 @@ const NavBar = () => {
             <NavLink to="/">Home</NavLink>
           </li>
           <li>
+            <NavLink to="/listedBooks">Listed Books</NavLink>
+          </li>          
+          <li>
             <details>
               <summary>Parent</summary>
               <ul className="p-2">

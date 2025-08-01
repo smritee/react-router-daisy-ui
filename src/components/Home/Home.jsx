@@ -1,9 +1,15 @@
 import React from 'react';
+import Banner from '../Banner/Banner';
+import Books from '../Books/Books';
+import Photos from '../Photos/Photos';
+
 
 const Home = () => {
     return (
         <div>
-            <h2 className="text-5xl">Home Page</h2>
+            <Banner></Banner>
+            <Books></Books>
+            {/* <Photos></Photos> */}
         </div>
     );
 };
